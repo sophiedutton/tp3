@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');	
+li {
+  font-family: Georgia;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+#ingredients li { 
+  font-family: Arial;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#equipment li:nth-child(3) {
+  color: red;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
