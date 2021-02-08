@@ -1,25 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');	
-li {
-  font-family: Georgia;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 ul ul {
   list-style-type: circle;
 }
 
-#ingredients li { 
-  font-family: Arial;
+
+#directions {
+  font-family: 'Lato', sans-serif;
 }
 
-#ingredients li span {
-  font-style: italic;
-  color: #999;
+#equipment {
+   font-family: 'Lato', sans-serif;
 }
 
-#equipment li:nth-child(3) {
-  color: red;
+#ingredients {
+   font-family: 'Lato', sans-serif;
 }
 
 h1 {
   font-family: 'Bebas Neue', cursive;
+}
+
+.highlight {
+    background-color: #ffc0cb;
+}
+
+p {
+   font-family: 'Lato', sans-serif;
+}
+
+#directions li:nth-child(1) {
+  color: red;
+}
+
+#directions li:nth-child(2) {
+  color: orangered;
+}
+
+#directions li:nth-child(3) {
+  color: orange;
+}
+
+#directions li:nth-child(4) {
+  color: darkgoldenrod;
+}
+
+#directions li:nth-child(5) {
+  color: yellowgreen;
+}
+
+#directions li:nth-child(6) {
+  color: lightgreen;
+}
+
+#directions li:nth-child(7) {
+  color: green;
+}
+
+#directions li:nth-child(8) {
+  color: darkgreen;
+}
+
+#directions li:nth-child(9) {
+  color: lightblue;
+}
+
+#directions li:nth-child(10) {
+  color: blue;
+}
+
+#directions li:nth-child(11) {
+  color: purple;
+}
+
+#directions li:nth-child(12) {
+  color: pink;
 }
